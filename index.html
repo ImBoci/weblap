@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangulat visszajelzés</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="myFunction()">
+    <div class="container" id="container">
+      <h1 class="heading">Visszajelzés</h1>
+      <div class="ratings-container" id="ratings-container">
+        <div class="rating">
+          <img src="emoji/sad.png" alt="szomorú emoji" />
+          <small>Elégedetlen</small>
+        </div>
+        <div class="rating">
+          <img src="emoji/neutral.png" alt="semleges emoji" />
+          <small>Semleges</small>
+        </div>
+        <div class="rating">
+          <img src="emoji/happiness.png" alt="elégedett emoji" />
+          <small>Elégedett</small>
+        </div>
+      </div>
+      <button class="btn" id="btn">Visszajelzés küldése</button>
+    </div>
+
+    <footer class="lablec">
+      <a
+        class="instagram"
+        href="https://www.instagram.com/vxrgx0/"
+        target="_blank"
+        >Copyright © 2023 Varga Dániel</a
+      >
+    </footer>
+
+    <div class="loader-wrapper" id="loading">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
